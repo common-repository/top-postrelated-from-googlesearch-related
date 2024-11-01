@@ -1,0 +1,26 @@
+#pr_sidebar ul, #pr_sidebar ul li { list-style: none; }
+#pr_sidebar ul li {
+	border: 1px solid #666666; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 8px 2%; 
+	background: #E7E7E7; 
+	width: 95%; 
+	height: 25px;
+	list-style: none;
+}
+#pr_sidebar a {
+	cursor: move;
+	font-size: 10px;
+	line-height: 11px;
+	text-decoration: none;
+}
+#pr_sidebar p a.iframe {
+	cursor: pointer;
+}
+#pr_sidebar p.img {
+	float: right
+}
+#pr_sidebar p.img img {
+	vertical-align: middle; 
+}
